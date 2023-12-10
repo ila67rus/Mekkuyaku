@@ -1,0 +1,428 @@
+@import url('https://fonts.cdnfonts.com/css/cyborg-punk');
+@import url('https://fonts.cdnfonts.com/css/cyberverse');
+
+html {
+    box-shadow: inset 3px 3px 200px black;
+    min-width: 400px;
+    min-height: 764px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Cyborg Punk', sans-serif;
+    background: #fff700a1;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main_container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.logo h3 {
+    padding: 0px 20px;
+}
+
+.a {
+    color: #F8EF02;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.header a {
+    color: #F8EF02;
+    text-shadow: 1px 8px 7px blue, 0 0 1em rgb(38, 0, 255);
+    font-size: 3em;
+    padding-right: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #000000;
+    margin: 0 auto;
+    min-width: 400px;
+}
+
+.background_line {
+    min-width: 400px;
+}
+
+.background_line img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.main_container {
+    box-shadow: 1px 1px 28px 14px blue;
+    border-radius: 50px;
+}
+
+.main_block {
+    display: flex;
+    box-shadow: inset 3px 3px 80px blue;
+    border-radius: 50px;
+    background: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+.main_block_ls {
+    width: 800px;
+    color: rgb(0, 0, 0);
+
+}
+
+.main_block_ls h1 {
+    color: #F8EF02;
+    padding: 0px 0px 0px 50px;
+    text-shadow: 5px 7px 3px #0503d1;
+}
+
+.social {
+    margin-left: 40px;
+    width: 250px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 36px;
+    padding-left: 10px;
+}
+
+.main_block_ls p {
+    color: #F8EF02;
+    line-height: 1.5;
+    font-family: 'Cyberverse Condensed', sans-serif;
+    padding-left: 50px;
+    font-size: 23px;
+}
+
+
+.main_block_rs {
+    width: 300px;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+.main_block_rs img {
+    width: 300px;
+    height: 340px;
+}
+
+.project_header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.project_header h2 {
+    text-shadow: 3px 3px 20px rgb(4, 255, 4);
+}
+
+hr {
+    max-width: 1200px;
+    height: 6px;
+    display: block;
+    background-color: black;
+    clip-path: polygon(0 0, 0 100%, 10% 100%, calc(10% + 4px) 2px, 100% 2px, 100% 0);
+}
+
+.projects {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1%;
+    min-width: 400px;
+}
+
+.project1_container {
+    box-shadow: 3px 3px 80px #ff50f2;
+    border-radius: 50px;
+    margin: 40px 0px;
+}
+
+.project1 {
+    display: flex;
+    box-shadow: inset 3px 3px 80px #ff50f2;
+    border-radius: 50px;
+    background: #000000;
+    /* align-items: center;
+    flex-direction: column; */
+}
+
+.project1_title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.project1_title a {
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+.project1 p {
+    color: #F8EF02;
+    line-height: 1.5;
+    font-family: 'Cyberverse Condensed', sans-serif;
+    font-size: 23px;
+}
+
+.project1 h2 {
+    font-size: 1.5em;
+    color: #F8EF02;
+    text-shadow: 3px 3px 3px blue, 0 0 1em rgb(38, 0, 255);
+}
+
+.project1 img {
+    width: 300px;
+    height: 300px;
+}
+
+.project2_container {
+    box-shadow: 3px 3px 60px #ff50f2;
+    border-radius: 50px;
+    margin: 40px 0px;
+}
+
+.project2 {
+    display: flex;
+    box-shadow: inset 3px 3px 60px #ff50f2;
+    border-radius: 50px;
+    background: #000000;
+}
+
+.project2_title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.project2_title a {
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+
+.project2 p {
+    color: #F8EF02;
+    line-height: 1.5;
+    font-family: 'Cyberverse Condensed', sans-serif;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.project2 h2 {
+    font-size: 1.5em;
+    color: #F8EF02;
+    text-shadow: 3px 3px 3px blue, 0 0 1em rgb(38, 0, 255);
+}
+
+.project2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(17, 17, 255);
+
+}
+
+.m {
+    font-size: 2em;
+    color: #F8EF02;
+    text-shadow: 3px 3px 3px blue, 0 0 1em rgb(38, 0, 255);
+}
+
+.logo_text_size {
+    font-size: 1.5em;
+    color: #F8EF02;
+    text-shadow: 3px 3px 3px blue, 0 0 1em rgb(38, 0, 255);
+}
+
+.b {
+    font-size: 2em;
+    color: #F8EF02;
+    text-shadow: 3px 3px 3px blue, 0 0 1em rgb(38, 0, 255);
+}
+
+.inst {
+    background: #CF0091;
+    background: linear-gradient(to bottom, #CF0091 0%, #FF2121 50%, #FFFF1F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.vk {
+    color: #0077ff;
+}
+
+.tg {
+    color: #30a3e6;
+}
+
+.steam {
+    color: rgb(135, 135, 135);
+}
+
+.youtube {
+    color: #FF2121
+}
+
+#html {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #fffb01;
+    border: 1px solid #fffb01;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#html:hover {
+    color: white;
+}
+
+#css {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #2f0aff;
+    border: 1px solid #2f0aff;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#css:hover {
+    color: white;
+}
+
+#javascript {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #00f7ff;
+    border: 1px solid #00f7ff;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#javascript:hover {
+    color: white;
+}
+
+
+#python {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #47fc65;
+    border: 1px solid #47fc65;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#python:hover {
+    color: white;
+}
+
+#tcp_ip {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #00fff2;
+    border: 1px solid #00fff2;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#tcp_ip:hover {
+    color: white;
+}
+
+#osi {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #ff00ff;
+    border: 1px solid #ff00ff;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#osi:hover {
+    color: white;
+}
+
+#win {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #a200ff;
+    border: 1px solid #a200ff;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#win:hover {
+    color: white;
+}
+
+#mysql {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #2600ff;
+    border: 1px solid #2600ff;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#mysql:hover {
+    color: white;
+}
+
+#dc {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #47fc65;
+    border: 1px solid #47fc65;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+#dc:hover {
+    color: white;
+}
+
+@media (max-width:768px) {
+
+    .project1,
+    .project2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project1,
+    .project2 p {
+        padding-left: 20px;
+    }
+
+    .project1,
+    .project2 h2 {
+        padding-left: 20px;
+    }
+}
